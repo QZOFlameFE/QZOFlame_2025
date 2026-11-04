@@ -2,7 +2,7 @@
 <tr>
 <th width=800>
 
-![PixyMon configuration](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Pixy2_configuration.png)
+![PixyMon configuration](Pixy2_configuration.png)
 </th>
 </tr>
 </table>
@@ -11,7 +11,7 @@
 <tr>
 <th width=800>
 
-![PixyMon settings](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Settings_Pix2.png) 
+![PixyMon settings](Settings_Pix2.png) 
 </th>
 </tr>
 </table>
@@ -28,7 +28,7 @@ Also it is important to set "Block Filtering" to zero, and remove "Saturation" t
 <tr>
 <th width=800>
   
-![PixyMon view](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Pixy2_view.png)
+![PixyMon view](Pixy2_view.png)
 </th>
 </tr>
 </table>

@@ -11,7 +11,7 @@ angle of the object to camera </br>
 <tr>
 <th width=400>
   
-![Pixy2 block](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Pixy2block.png)
+![Pixy2 block](Pixy2block.png)
 </th>
 </tr>
 </table>

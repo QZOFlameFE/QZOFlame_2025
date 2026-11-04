@@ -19,14 +19,14 @@ CONTENT
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;">
 <div align = center>
-  <img src=https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Team_photos/QZO_Logo12.png> 
-  <img src="https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Team_photos/QZO_logoo.jpg">
+  <img src=Team_photos/QZO_Logo12.png> 
+  <img src="Team_photos/QZO_logoo.jpg">
 </div>
 </div>
 </div>
 <h2 align = center> Our team already participated in the last 2024 season and we won second place in FE category</h2>
 <div align = center>
-<img src="https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Team_photos/2024.jpeg"/>
+<img src="Team_photos/2024.jpeg"/>
 </div>
 
 # Contents 
@@ -56,8 +56,8 @@ CONTENT
 -->
 # Mobility Management
 
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudiostyleelements.jpg)
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudioview.jpg)
+![alt text](Vehicle_photos/FEstudiostyleelements.jpg)
+![alt text](Vehicle_photos/FEstudioview.jpg)
 <p>   Our robot is designed by lego, especially we used LEGO MINDSTORMS Education Core Set(Serial number 45544) and other LEGO EV3 sets: EV3 Expansion Set, EV3 Homeschool Combo Pack and others. You can view all of the LEGO EV3 sets by this link: <a href="https://www.bricklink.com/catalogList.asp?catType=S&catString=166.59.800">https://www.bricklink.com/catalogList.asp?catType=S&catString=166.59.800</a>. Robot's wheels are taken from LEGO SPIKE Prime set and its expansion set(serial numbers 45678-1 and  45680-1). </p> </br>
   
 <p>   For better stability we used differential with two motors at the rear axle and steering control as required in the rules, our robot's size is 24.5cm (length); 14cm(width) and 29cm(height). We constructed the robot as small as possible, so its projection doesn't interfere during parking. </p>
@@ -67,7 +67,7 @@ CONTENT
 <tr>
 <th width=250>
   
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/concepts/parallelparkingscheme.jpeg) </br>
+![alt text](concepts/parallelparkingscheme.jpeg) </br>
 </th>
 </tr>
 </table>
@@ -75,12 +75,12 @@ CONTENT
 
 ### Chassis design
 The base of our chassis design comes from parallel steering model geometry. Wheels that are connected to the steering control always turn on the same angle. However, last year we used Pro-Akkerman steering model geometry. The difference is in the angle of the wheels. Pro-Akkerman makes inner wheel turn more than outer wheel, because distances that inner and outer wheels go are dissimilar(while turning).
-<img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/concepts/akkermanangles.jpg" alt="Ackermann Design">
+<img src="concepts/akkermanangles.jpg" alt="Ackermann Design">
 
-<img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/concepts/turndistance.jpg" width="550" height="386" alt="Ackermann Design">
+<img src="concepts/turndistance.jpg" width="550" height="386" alt="Ackermann Design">
 With a parallel steering model, the inner wheel does not align with its natural turning radius and tends to scrub against to surface, causing potential danger for the stability. Akkerman system might look better and <B>it is</B>, but not for a small robot. You see, Akkerman steering model was created for a bigger and more massive things like cars, that weight tons and friction with the road is high and triggers scrubbing. Our small robot weights ~0,8 kilograms and friction with the surface is insignificant. If we gonna use Akkerman in order to solve this problem, it may have opposite effect and inner wheels will slip while turning.
 
-<img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/concepts/FEstudiofraction.jpeg" width="550" height="528" alt="Ackermann Design">
+<img src="concepts/FEstudiofraction.jpeg" width="550" height="528" alt="Ackermann Design">
 
 Also, Akkerman is not efficient, when it comes to low speed in Lego robots. Our components are not professional and expensive like big companies use, so our components have gaps in linkages and connectors. At low speeds and small steering angles, these gaps can become comparable to intended turning angle itself. For example, if we are gonna give command to turn on 5 degrees, robot may not turn at all and it ruins microcontrolling
 ### Weight distribution
@@ -109,7 +109,7 @@ Odometry is utilized to align the robot to the center by combining the Gyro sens
 * Medium-size servo motor - maximum speed of 250 rpm, running torque 0.08 Nm and stopping torque of 0.12 Nm, also with integrated encoder, identical to that of a large engine.
 
   
-  <img src=https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/medium%20motor.jpg> 
+  <img src=schemes/medium%20motor.jpg> 
 </br>
 Also the wheels have low coefficient of friction to avoid loss of energy, but for wheels in the rear axles it will be better to choose wheels with a bit high cofficient of friction to avoid slipping of wheels. The rear wheels are bigger than wheels in front axle to have a better stability, movement control and the speed. It will be better to choose little smaller rear wheels than our. 
 </br>
@@ -140,13 +140,13 @@ Power consumption details for motors and sensors can be found here:
 <table>
 <tr>
 <td align="center">
-<img src="https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/EV3_P-Brick_demonstration.jpg" width="700">
+<img src="Instructions/Power_and_Sense_Management/EV3_P-Brick_demonstration.jpg" width="700">
 </td>
 </tr>
 <tr>
 <td align="center">
-  <img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/batteries.jpg" width="49%">
-  <img src="https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/schemes/battery%20slot.png" width="49%">
+  <img src="schemes/batteries.jpg" width="49%">
+  <img src="schemes/battery%20slot.png" width="49%">
   
 </td>
 </tr>
@@ -180,18 +180,18 @@ Our robot was almost built only by LEGO details except camera and we can change 
     <tr>
       <th width=33%>
         
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/EV3_P-Brick.png)
+  ![alt text](Instructions/Power_and_Sense_Management/EV3_P-Brick.png)
   
   EV3 P-Brick </th>
       <th width=33%>
         
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/Arduino_UNO.jpeg)
+  ![alt text](Instructions/Power_and_Sense_Management/Arduino_UNO.jpeg)
         
   Arduino UNO 
       </th>
       <th width=33%> 
       
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/Raspberry_Pi_4B.png)
+  ![alt text](Instructions/Power_and_Sense_Management/Raspberry_Pi_4B.png)
        
   Raspberry Pi </th>
     </tr> 
@@ -268,20 +268,20 @@ Our robot was almost built only by LEGO details except camera and we can change 
 <tr>
 <th width=500>
   
-  ![obstacle detection](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/obstacle_detection.png)
+  ![obstacle detection](Instructions/Obstacle_management/obstacle_detection.png)
 </th>
   <th width=500>
     
-  ![obstacle detection](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Obstacle_detection1.png)
+  ![obstacle detection](Instructions/Obstacle_management/Obstacle_detection1.png)
   </th>
   <tr>
     <th width=500>
       
-  ![linear function](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/linear_function_convert.png)
+  ![linear function](Instructions/Obstacle_management/linear_function_convert.png)
 </th>
   <th width=500>
     
-  ![linear function](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/linear_function.png)
+  ![linear function](Instructions/Obstacle_management/linear_function.png)
 </table>
 
 </br>
@@ -291,7 +291,7 @@ Our robot was almost built only by LEGO details except camera and we can change 
 <tr>
 <th width=250>
   
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_Management/ICON%20PIxyMon%20v2.png)
+![alt text](Instructions/Obstacle_Management/ICON%20PIxyMon%20v2.png)
 <p> 
 PixyMon v2 application
 </p>
@@ -303,7 +303,7 @@ PixyMon v2 application
 <tr>
 <th width=400>
 
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_Management/Pixy_Block.png)
+![alt text](Instructions/Obstacle_Management/Pixy_Block.png)
 <p>
 Pixy block for LEGO MINDSTORMS
 </p>
@@ -340,7 +340,7 @@ This block outputs: </br>
 <tr>
 <th width=400>
   
-![Pixy2 block](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Obstacle_management/Pixy2block.png)
+![Pixy2 block](Instructions/Obstacle_management/Pixy2block.png)
 </th>
 </tr>
 </table>
@@ -366,7 +366,7 @@ Our robot aligns itself with the center of the road when it doesn't see an objec
 <tr>
 <th width=250>
   
-<img src="https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/Playfieldodometry_page-0001.jpg?raw=true" width="400">
+<img src="Instructions/Power_and_Sense_Management/Playfieldodometry_page-0001.jpg" width="400">
 <p> 
 Segmented odometry
 </p>
@@ -413,77 +413,77 @@ To park accurately, an ultrasonic sensor is used, when this sensor notices a par
 <tr>
   <th width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudiofront.jpeg)
+![alt text](Vehicle_photos/FEstudiofront.jpeg)
   </th>
   <th width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudioleft.jpeg)
+![alt text](Vehicle_photos/FEstudioleft.jpeg)
   </th>
 </tr>
 <tr>
   <td width=50%>
     
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudioright.jpeg)
+![alt text](Vehicle_photos/FEstudioright.jpeg)
   </td>
   <td width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudioback.jpeg)
+![alt text](Vehicle_photos/FEstudioback.jpeg)
   </td>
 </tr>
 <tr>
   <td width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudiobottom.jpeg)
+![alt text](Vehicle_photos/FEstudiobottom.jpeg)
   </td>
   <td width=50%>
 
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudiotop.jpeg)
+![alt text](Vehicle_photos/FEstudiotop.jpeg)
   </td>
 </tr>
 <tr>
   <td width=50%>
   
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/FEstudiostyle.jpeg)
+![alt text](Vehicle_photos/FEstudiostyle.jpeg)
   </td>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/QZOFlamestyle.jpeg)
-    
-  </td>
-</tr>
-<tr>
-  <td width=50%>
-    
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/QZOFlamefront.jpeg)
-    
-  </td>
-  <td width=50%>
-    
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/QZOFlameleft.jpeg)
+  ![alt text](Vehicle_photos/QZOFlamestyle.jpeg)
     
   </td>
 </tr>
 <tr>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/QZOFlameback.jpeg)
+  ![alt text](Vehicle_photos/QZOFlamefront.jpeg)
     
   </td>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/QZOFlameright.jpeg)
+  ![alt text](Vehicle_photos/QZOFlameleft.jpeg)
     
   </td>
 </tr>
 <tr>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/QZOFlametop.jpeg)
+  ![alt text](Vehicle_photos/QZOFlameback.jpeg)
     
   </td>
   <td width=50%>
     
-  ![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Vehicle_photos/QZOFlamebottom.jpeg)
+  ![alt text](Vehicle_photos/QZOFlameright.jpeg)
+    
+  </td>
+</tr>
+<tr>
+  <td width=50%>
+    
+  ![alt text](Vehicle_photos/QZOFlametop.jpeg)
+    
+  </td>
+  <td width=50%>
+    
+  ![alt text](Vehicle_photos/QZOFlamebottom.jpeg)
     
   </td>
 </tr>
@@ -496,9 +496,9 @@ To park accurately, an ultrasonic sensor is used, when this sensor notices a par
 
 
 ## Team Photos
-![alt text](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Team_photos/official-photos/team.jpg)
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Team_photos/workingproccess1.jpeg)
-![alt text](https://github.com/QZOFlameFE/FE2025_1st_repo_ByFlame/blob/main/Team_photos/workingproccess2.jpeg)
+![alt text](Team_photos/official-photos/team.jpg)
+![alt text](Team_photos/workingproccess1.jpeg)
+![alt text](Team_photos/workingproccess2.jpeg)
 </br>
 </br>
 # <hr/>

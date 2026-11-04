@@ -9,7 +9,7 @@ The Odomoetry is based in combine of all of the sensors that robot have. Ultraso
   <tr>
     <th width=400>
 
-  ![odometry explanation](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/calculating_odometry.png) </br>
+  ![odometry explanation](calculating_odometry.png) </br>
     </th>
   </tr>
 </table>
@@ -17,13 +17,13 @@ The Odomoetry is based in combine of all of the sensors that robot have. Ultraso
   <tr>
     <th height=300>
     
-  ![relative odometry programm part](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/relative_odometry.png) </br>
+  ![relative odometry programm part](relative_odometry.png) </br>
     </th>
   </tr>
   <tr>
     <th>
       
-  ![relative odometry in programm](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/relative_odometry_programm.png) </br>
+  ![relative odometry in programm](relative_odometry_programm.png) </br>
     </th>
   </tr>
 </table>
@@ -34,7 +34,7 @@ The Odomoetry is based in combine of all of the sensors that robot have. Ultraso
   <tr>
     <th width=1000>
       
-![absolute odometry principle](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/absolute_odometry_principle.png) </br>
+![absolute odometry principle](absolute_odometry_principle.png) </br>
 > [!NOTE]
 > this is our XY coordinates for odometry
 
@@ -46,7 +46,7 @@ The Odomoetry is based in combine of all of the sensors that robot have. Ultraso
   <tr>
     <th width=200>
       
-![relative odometry to absolute odometry](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/relative_odometry_to_absolute_odometry.png) 
+![relative odometry to absolute odometry](relative_odometry_to_absolute_odometry.png) 
 > [!NOTE]
 > this is a part of programm where relative odometry transfers to absolute odometry
 
@@ -58,7 +58,7 @@ The Odomoetry is based in combine of all of the sensors that robot have. Ultraso
   <tr>
     <th width=200>
 
-![absolute odometry in programm](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/absolute_odometry_in_programm.png) </br>
+![absolute odometry in programm](absolute_odometry_in_programm.png) </br>
 > [!NOTE]
 > part of programm where absolute odometry compiles
 
@@ -73,7 +73,7 @@ When color sensor detects the line relative odometry transfers to absolute odome
   <tr>
     <th width=200>
 
-![align_center_in_programm](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/align_center_in_programm.png)
+![align_center_in_programm](align_center_in_programm.png)
 </th>
 </tr>
 </table>
@@ -83,7 +83,7 @@ To align robot to the center of the straightforward zone. It is great to alignin
 <tr>
 <th width=200>
 
-![avoid crash in programm](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/avoid_crash_in_programm.png)
+![avoid crash in programm](avoid_crash_in_programm.png)
 </th>
 </tr>
 </table>
@@ -93,7 +93,7 @@ Also we use odometry to detect the coordinates of pillars (red and green signs).
   <tr>
     <th width=200>
       
-![aligning odometry in the programm](https://github.com/QZOFlameFE/FE2024_1st_repo_ByFlame/blob/main/Instructions/Power_and_Sense_Management/aligning_odometry_in_programm.png)
+![aligning odometry in the programm](aligning_odometry_in_programm.png)
     </th>
   </tr>
 </table>
